@@ -1,0 +1,25 @@
+#extention --> Rest client before test
+
+###post
+POST /api/post HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{ "name": "chaichannnnn", "age": 20 }
+
+###GET ALL
+GET /api/getAll HTTP/1.1
+Host: localhost:3000
+
+### GET BY ID
+GET /api/getOne/59b99db9cfa9a34dcd7885bf HTTP/1.1
+Host: localhost:3000
+
+###REDIS GET BY ID
+GET /api/getOneRedis/59b99db9cfa9a34dcd7885bf HTTP/1.1
+Host: localhost:3000
+
+###DELETE
+### GET BY ID
+DELETE /api/delete/59b99dc0cfa9a34dcd7885d1 HTTP/1.1
+Host: localhost:3000
